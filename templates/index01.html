@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <title>Swasthya Tea</title> 
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+           
+    </head>
+    <body> 
+        <!--body is what y</div>ou want to actually show on the page/web page-->
+        {% include 'nav.html' %}
+        <div class="container">
+            <div class="text-center">
+                <img src="static/home.jpeg" class="rounded" alt="...">
+              </div>
+            <h1 class="text-center mt-2 mb-4">Swasthya Tea</h1> <!--this is headings it has 6 levels 1 to 6-->
+            <!--copy url-->
+             <!--this gives heading about jovian-->
+            <p class="text-align: center">
+                <!--p tag for paragraphs here we copy lorem ipsum para for about jovian-->
+                We Provides You a best quality of tea Prodcut. It is healthy for your Health.
+                basically It contains best quality of ingredients which makes best teaste in 
+                each sip. You feels fresh and energiatic. beverage produced by steeping in freshly boiled water the young leaves 
+                and leaf buds of the tea plant, Camellia sinensis. Two principal varieties 
+                are used, the small-leaved China plant (C. sinensis variety sinensis) 
+                and the large-leaved Assam plant (C. sinensis variety assamica).
+            </p>
+           
+           </div>
+            <h2 class="text-center mt-2 mb-4">Our Products</h2>
+            <div style="text-align: center">
+                <p class="bodytext">Updating Very Soon...</p>
+                <div class="text-center">
+                    <button class="btn btn-primary btn-lg">Select</button> <!--also we use button tag here-->
+                     <h4 class="text-center mt-4 mb-2">If Any Query Please Contact Us</h4>
+               </div>
+               <div class="text-center mt-2 mb-4">
+                <a href="mailto:swasthyachaha@gmail.com?subject=Regarding%20Product%20Inquiry
+                &body=Name%20Of%20Customer%20%3A%20%3CEnter%20Your%20Name%20Here%3E%0D%0
+                AAddress%20%3A%20%3CEnter%20Your%20Address%3E%0D%0AMob%20No.%20%3A%20%3C
+                Enter%20Mob%20No.%3E%0D%0ASubject%20%3A%20%3CEnter%20Your%20Questions%2
+                FQueries%3E"
+                class="btn btn-primary btn-lg">Contact Us</a> <!--also we use button tag here-->
+           </div>
+        </div>
+       {% include 'footer.html' %}
+    </body>
+<!--- this tag of html / sign at last of html tag as we menas its end/closing of tag--->
+</html>
